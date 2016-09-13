@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	font-family: Arial;
+}
+#name {
+	font-size: 25px;
+	font-weight: bold;
+	padding: 15px 0 0 15px;
+}
+#slogan {
+	padding: 0 0 15px 15px;
+}
+#blue {
+	height: 272px;
+	width: 100%;
+	top: 272px;
+	position: absolute;
+	background-color: #A9D5D4;
+	z-index: -1;
+}
+
+nav {
+	position: relative;
+	height: 272px;
+	width: 800px;
+	margin: 0 auto;
+	background-image: url("grfx/header.jpg");
+	background-repeat: no-repeat;
+}
+#top-menu {
+	position: absolute;
+	display:inline-flex;
+	list-style-type: none;
+	padding: 0;
+	bottom: 0;
+	margin: 0;
+
+}
+#top-menu>li {
+	padding: 15px 5px;
+}
+#top-menu>li>a {
+	text-decoration: none;
+    color: #FFF;
+}
+#top-menu>li>a.active {
+	text-decoration: none;
+    color: #A9D5D4;
+}
+main {
+	width: 800px;
+	margin: 0 auto;
+	background-color: white;
+}
+main>p {
+	padding: 5px 15px;
+	margin: 0;
+}
+main>h2 {
+	padding: 7px 15px;
+	margin: 0;
+}
+
+.left {
+	float: left;
+	margin: 7px 15px 15px 0;
+}
+.right {
+	float: right;
+	margin: 7px 0 15px 15px;
+}
