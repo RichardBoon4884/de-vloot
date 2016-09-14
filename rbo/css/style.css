@@ -2,24 +2,17 @@ body {
 	margin: 0;
 	font-family: Arial;
 }
-#name {
+header>h1 {
 	font-size: 25px;
 	font-weight: bold;
 	padding: 15px 0 0 15px;
+	margin: 0;
 }
-#slogan {
+header>p {
 	padding: 0 0 15px 15px;
+	margin: 0;
 }
-#blue {
-	height: 272px;
-	width: 100%;
-	top: 272px;
-	position: absolute;
-	background-color: #A9D5D4;
-	z-index: -1;
-}
-
-nav {
+header {
 	position: relative;
 	height: 272px;
 	width: 800px;
@@ -27,36 +20,44 @@ nav {
 	background-image: url("grfx/header.jpg");
 	background-repeat: no-repeat;
 }
-#top-menu {
+nav {
 	position: absolute;
-	display:inline-flex;
-	list-style-type: none;
-	padding: 0;
 	bottom: 0;
-	margin: 0;
 
 }
-#top-menu>li {
+nav>ul {
+	display:inline-flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav>ul>li {
 	padding: 15px 5px;
 }
-#top-menu>li>a {
+nav>ul>li>a {
 	text-decoration: none;
     color: #FFF;
 }
-#top-menu>li>a.active {
+nav>ul>li>a.active {
 	text-decoration: none;
     color: #A9D5D4;
 }
+
 main {
+	background-image: url("grfx/bg.png");
+	background-repeat: repeat-x;
+	background-size: 100% 272px;
+}
+article {
 	width: 800px;
 	margin: 0 auto;
 	background-color: white;
 }
-main>p {
+article>p {
 	padding: 5px 15px;
 	margin: 0;
 }
-main>h2 {
+article>h2 {
 	padding: 7px 15px;
 	margin: 0;
 }
